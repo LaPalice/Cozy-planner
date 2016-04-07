@@ -1,0 +1,39 @@
+body 
+{
+	background-color: #F0F0F0;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+h2
+{
+	text-transform: uppercase;
+	font-size: ;
+}
+
+.homechoice
+{
+	display: block;
+	border: solid black 1px;
+	margin: 20px;
+	padding: 2px 2px 2px 2px;
+	background-color: #F8F8F8;
+	width: 30%;
+	margin: 20px auto 20px auto;
+
+}
+
+.nextpage
+{
+	margin-top: 20px;
+	padding: 3px;
+}
+
+.entry
+{
+	border: none;
+	border-bottom: solid #D0B9C1;
+	text-align: center;
+	padding: 10px;
+	background-color: #F0F0F0;
+}
