@@ -15,6 +15,11 @@ body
 	position: absolute;
 }
 
+a
+{
+	text-decoration: none;
+}
+
 .body
 {
 	position: absolute;
@@ -51,14 +56,49 @@ h4
 
 .homechoice
 {
-	display: block;
-	border: solid black 1px;
+	display: inline-block;
+	border: none;
 	margin: 20px;
 	padding: 2px 2px 2px 2px;
 	background-color: #F8F8F8;
 	width: 30%;
 	margin: 20px auto 20px auto;
+	content:'';
+	width: 200px;
+	height: 200px;
+	left: 130px;
+	top: -120px;
+	border-radius: 50%;
+	text-align: center;
+	text-transform: uppercase;;
+	font-weight: bold;
+	color: #f7f7f7;
 
+}
+
+#event
+{
+	background-color: #8cb1ff;
+
+
+
+}
+
+#poll
+{
+	background-color: #86e252;
+
+
+}
+
+#todolist
+{
+	background-color: #ffa300;
+}
+
+.center
+{
+	padding-top: 45%
 }
 
 
@@ -226,10 +266,32 @@ hr
 .addfile
 {
 	display: block;
-	margin: auto
+	margin: 20px auto 20px auto;
+	cursor: pointer;
+	padding: 5px;
+	min-width: 150px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#fromfiles
+{
+	background-color: #8cb1ff;
+}
+
+#fromcozymap
+{
+	background-color: #86e252;
+}
+
+#browse
+{
+	background-color: #ffa300;
 }
 
 .inpage /* les titres dans la page ont un padding en haut pour aérer */
 {
 		padding-top: 50px;
 }
+
