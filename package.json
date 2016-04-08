@@ -1,0 +1,9 @@
+
+{
+  "name": "cozy-planner",
+  "cozy-type": "static",
+  "displayName": "Cozy-Planner",
+  "version": "1.0.0",
+  "description": "Planner for Cozyfanboysandgirls",
+  "main": "Cozy-planner Homepage.html"
+}
