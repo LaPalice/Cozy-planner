@@ -376,7 +376,7 @@ td.toggle
 }
 
 /*checkbox*/
-input 
+.checkbox
 {
 	display: none;
 }
