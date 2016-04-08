@@ -45,44 +45,48 @@
 	<h1>Settings</h1>
 
 	<table>
-		<tr>
+		<tr class="darkgreyrow">
 			<td>
-				Les sondés peuvent voir les résultats des autres
+				Guests can see others' choice
 			</td>
-			<td>
-				<div>
-					NO
-					<span class="toggle">
-						Toggle element
-					</span>
-					YES
-				</div>
+			<td class="toggle">
+			    <label for="viewresults">
+				      YES
+			    </label>
+			    <label class="rb-switcher">
+			      <input type="checkbox" name="choice" id="viewresults" value="viewresults"/>
+			      <i></i> NO
+			    </label>
 			</td>
+		</tr>
 
 		<tr>
 			<td>
 				Only one choice by guest
 			</td>
-			<td class="inline">
-				NO
-					<span class="toggle">
-						Toggle element
-					</span>
-				YES
+			<td class="toggle">
+					    <label for="onechoice">
+						      YES
+					    </label>
+					    <label class="rb-switcher">
+					      <input type="checkbox" name="choice" id="onechoice" value="onechoice" />
+					      <i></i> NO
+					    </label>
 			</td>
+		</tr>
 
-		<tr>
-			<td class="inline">
+		<tr class="darkgreyrow">
+			<td>
 				Who can participate ?
 			</td>
-			<td>
-				<div>
-					GUESTS ONLY
-						<span class="toggle">
-							Toggle element
-						</span>
-					EVERYONE
-				</div>
+			<td class="toggle">
+					    <label for="guestonly">
+						      EVERYBODY
+					    </label>
+					    <label class="rb-switcher">
+					      <input type="checkbox" name="choice" id="guestonly" value="guestonly" />
+					      <i></i> GUESTS ONLY
+					    </label>
 			</td>
 		</tr>
 
