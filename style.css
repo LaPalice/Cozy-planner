@@ -169,6 +169,7 @@ textarea
 	height: 250px;
 	border: solid 1px;
 	border-color: #ddd;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 hr
@@ -284,6 +285,7 @@ hr
 	font-size: 0.9em;
 	color: grey;
 	padding-bottom: 20px;
+	cursor: pointer;
 }
 
 .remark:hover
@@ -323,3 +325,39 @@ hr
 		padding-top: 50px;
 }
 
+/* InvitePeople */
+
+.sharepoll
+{
+	display: inline;
+	color: grey;
+}
+
+.link
+{
+	min-width: 500px;
+	text-align: center;
+}
+
+#mailcontact
+{
+	background-color: #ffa300; 
+}
+
+span.remark
+{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/* Settings */
+table
+{
+	margin: auto;
+	text-align: left;
+}
+
+td.inline
+{
+	display: inline;
+}
