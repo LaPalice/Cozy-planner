@@ -106,7 +106,7 @@ h4
 
 .nextpage
 {
-	margin-top: 100px;
+	margin-top: 20px;
 	padding: 3px;
 
 }
@@ -358,7 +358,7 @@ table
 	border: none;
 }
 
-td
+.settings
 {
 	border: none;
 	min-width: 300px;
@@ -411,3 +411,22 @@ i
   }
 
   /*/checkbox */
+
+
+.step
+{
+	margin-top: 70px;
+}
+
+td.stepprogress
+{
+	width: 50px;
+	border: none;
+	height: 20px;
+	background-color: #EDEDED;
+}
+
+#currentstep
+{
+	background-color: #cdcdff;
+}
