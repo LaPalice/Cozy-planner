@@ -144,6 +144,8 @@ h4
 	margin-top: auto;
 	overflow-y: auto; 
 	box-sizing:border-box;
+	border-bottom: none;
+	border-right: none;
 /*
 	position: absolute
 	width: 15%;
@@ -185,7 +187,8 @@ hr
 
 .niv2:before
 {
-	content: "\1F5F4" "\00A0"
+	content: "x" "\00A0" "\00A0";
+	font-style: italic;
 }
 
 .niv1
@@ -413,6 +416,7 @@ i
   /*/checkbox */
 
 
+/* Barre de progression */
 .step
 {
 	margin-top: 70px;
@@ -429,4 +433,68 @@ td.stepprogress
 #currentstep
 {
 	background-color: #cdcdff;
+}
+
+/* RECAP */
+
+.eventrecap
+{
+	border: solid 1px;
+	border-color: #ddd;
+	width:50%;
+	margin:auto;
+	text-align: justify;
+	padding: 20px;
+	border-bottom: none;
+	border-top: none;
+}
+
+.guest
+{
+	cursor: pointer;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+.guest:before
+{ 
+	content: "x" "\00A0" "\00A0";
+	font-style: italic;
+	font-weight: normal;
+}
+
+.menubar
+{
+	position: fixed;
+	width: 15%;
+	background-color: #2b303a;
+	margin: 0px;
+	color: #afb0b3;
+	min-height: 100%;
+	border-right-style: groove;
+	border-left-style: groove;
+
+}
+
+#settingsanswer1
+{
+	text-align: center;
+}
+
+#settingsanswer2
+{
+	text-align: center;
+}
+
+#settingsanswer3
+{
+	text-align: center;
+}
+
+hr
+{
+	color: #ddd;
+	width: 30%;
+	margin: 50px auto 50px auto;
 }
